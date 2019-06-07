@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 960px;
+  margin: 2em auto;
+}
+
+.nav {
+  align-items: flex-end;
+  margin: 1em 0;
+}
+
+a.nav-item {
+  font-size: 16px;
+  color: #1e7ddc;
+}
+
+.title {
+  margin: 0;
+  line-height: 16px;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.note-item {
+  display: block;
+  border-bottom: 1px solid #aaa;
+  padding: 0.5em;
+  color: black;
+}
+
+.note-text {
+  font-size: 24px;
+}
+
+.danger {
+  color: #e06952;
+}
+
+@media(min-width: 700px) {
+  .grid {
+    display: flex;
+  }
+
+  .grid .align-right {
+    margin-left: auto;
+  }
+}
